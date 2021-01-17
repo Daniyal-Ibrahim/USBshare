@@ -1,0 +1,312 @@
+{
+    "info": {
+       "name": "Feyblood",
+       "update": {
+          "@version": "0.0.2",
+          "file": {
+             "@name": "feyblood.xml",
+             "@url": "https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dms-guild/xanathars-lost-notes-to-everything-else/feyblood.xml"
+          }
+       }
+    },
+    "element": [
+       {
+          "@name": "Feyblood",
+          "@type": "Race",
+          "@source": "Xanathar’s Lost Notes to Everything Else",
+          "@id": "ID_XLN_RACE_FEYBLOOD",
+          "description": {
+             "p": [
+                "The elves of Silfast deem themselves fortunate to have those known as the Feyblood as their neighbors. It is even rumored that they can resist the effects of the blighted lands within the Empyrean. However, it is not so for these people beyond the borders of Anchorome. Most denizens of Faerun see little difference between them and other beasts, while those within the Feywild count them amongst the Unseelie. With hope, these faerie-kin shall one day be recognized as allies instead of adversaries.",
+                {
+                   "@style": "text-align:right",
+                   "#text": "— Keritrina, sage of Dari Sinora"
+                },
+                "There are those that exist between two worlds, whose very existence walks a fine line between the Material Plane and the Feywild. The feyblood are a product of the extraordinary union between a powerful fey spirit such as a dryad, sylph, or nereid, and a mortal. While most often mingled with elves or humans, it isn’t unheard of for other types of fey and mortals to unite in similar fashion, and from this union, a child may be born with both a mortal coil and a fey spirit.",
+                "Regardless, such unions are extremely rare, and often carry severe punishment for the fey parent. Amongst other races, the feyblood are viewed with suspicion and sometimes fear for the capricious nature of the fey, told throughout the Material Plane.",
+                "Similar to their fey parents, the feyblood share a special connection to their homeland. They too have tendency toward insatiable curiosity and wanderlust, rarely staying in any one place for a lengthy period of time.",
+                "Feyblood aren’t vain creatures, but can be mistaken as such. They are drawn to beauty, and often dress themselves in colorful silks and fabrics that lean toward the primordial nature of their parentage. They also delight in wearing unique trinkets that reflect the light of the sun or moon.",
+                "Physically, Feyblood have slim, pointed ears and sharp features. They’re slim-framed, often with slender hands and fingers. Their most prominent feature is their semitranslucent gossamer wings, which can vary in shape from butterfly-like to sharp, foliage-like features. They’re almost always older than they appear. Even the starkest, most serious stare from a feyblood has a hint of childish playfulness hidden beneath.",
+                "Their hair varies in color, usually anywhere from dusty blonde to deep browns and greens for the earthborn dryashi, or white, gray, silver, and shades of blues and browns for the skyborn sylphi. Their eyes are usually wider than normal, with colors varying between browns, greens, and reds. Their skin tones are similar to humans, but there are instances of some with greenish or bluish hues mixed within.",
+                "While often viewed by others with great suspicion, feyblood still hold a love of life and strive to see the good in others whenever possible. They are far from being foolish in this aspect, however. Though they usually share a dislike for violence, they’re staunch protectors of others, particularly those that also share an affinity for nature. They tend to keep only a few trusted friends and allies, though their loyalty to those chosen few is indisputable.",
+                "Because of their spiritual duality, the feyblood are caught between two worlds, neither of which accept them as true kin. Most fey view them as abominations, only rarely providing aid or guidance to those deemed to be a lesser species. They are only slightly more accepted amongst their other non-fey kin, though never entirely able to fit or be fully accepted into their world. Certain races are more accepting than others. Elves treat feyblood very much like other half-elves, for example, while gnomes are far more curious as to their shared connection with their fey kin. This is one of the main reasons why feyblood aren’t often found in crowded places or areas of large public display.",
+                "Feyblood use the naming conventions of the people among whom they were raised. They might later assume distinctive names to captures their heritage, and often begin and end with a vowel.",
+                "Feyblood have a variety of traits, inherited from their fey bloodline.",
+                {
+                   "strong": {
+                      "em": "Ability Score Increase."
+                   },
+                   "#text": "Your Charisma score increases by 2."
+                },
+                {
+                   "strong": {
+                      "em": "Age."
+                   },
+                   "#text": "Most feyblood reach physical maturity only slightly slower than humans, reaching adulthood after 30 but retain a childlike wonder and youthful appearance. They live very long lives, reaching revered status as elders between 250 to 300 years old when they hope to return to the Feywild."
+                },
+                {
+                   "strong": {
+                      "em": "Alignment."
+                   },
+                   "#text": "Feyblood tend to gravitate toward being good-aligned, but there are quite a few that are neutral as well. It is extremely rare that one would become either lawful or evil, barring extraordinary circumstances."
+                },
+                {
+                   "strong": {
+                      "em": "Size."
+                   },
+                   "#text": "Somewhat shorter than humans, feyblood can reach about 4 to 5 feet in height. Your size is Medium."
+                },
+                {
+                   "strong": {
+                      "em": "Speed."
+                   },
+                   "#text": "Your base walking speed is 30 feet."
+                },
+                {
+                   "strong": {
+                      "em": "Fey Ancestry."
+                   },
+                   "#text": "You have advantage on saving throws against being charmed, and magic can’t put you to sleep."
+                },
+                {
+                   "strong": {
+                      "em": "Fey Charm."
+                   },
+                   "#text": "You can target one humanoid or beast that you can see within 30 feet. It must succeed on a Wisdom saving throw or be magically charmed. The charmed creature regards you as a trusted friend to be heeded and protected. Although the target isn’t under your control, it takes your requests or actions in the most favorable way it can."
+                },
+                {
+                   "strong": {
+                      "em": "Fey Resistance."
+                   },
+                   "#text": "You have advantage on saving throws against being charmed and against illusion magic."
+                },
+                {
+                   "strong": {
+                      "em": "Languages."
+                   },
+                   "#text": "You can speak, read, and write Common, Sylvan, and one extra language of your choice."
+                }
+             ],
+             "h4": [
+                "SPIRIT OF THE WILD",
+                "GOOD HEART AND BRAVE SOUL",
+                "OPPOSING NATURES",
+                "FEYBLOOD NAMES",
+                "FEYBLOOD TRAITS"
+             ],
+             "ul": [
+                {
+                   "strong": "Sample Female Names:",
+                   "#text": "Azema, Dedreve, Ephissa, Hathuni, Iaseli, Nesia, Othesni, Sheaya, Ulosani, Zesne"
+                },
+                {
+                   "strong": "Sample Male Names:",
+                   "#text": "Asezur, Cuyel, Eanoo, Fephil, Hivelo, Ilnavi, Kyves, Lissio, Omyth, Salire, Zeyul"
+                }
+             ]
+          },
+          "setters": [
+             {
+                "@name": "names",
+                "@type": "male",
+                "#text": "Asezur, Cuyel, Eanoo, Fephil, Hivelo, Ilnavi, Kyves, Lissio, Omyth, Salire, Zeyul"
+             },
+             {
+                "@name": "names",
+                "@type": "female",
+                "#text": "Azema, Dedreve, Ephissa, Hathuni, Iaseli, Nesia, Othesni, Sheaya, Ulosani, Zesne"
+             },
+             {
+                "@name": "names-format",
+                "#text": "{{name}}"
+             }
+          ],
+          "sheet": {
+             "@display": "false"
+          },
+          "rules": {
+             "stat": [
+                {
+                   "@name": "charisma",
+                   "@value": "2"
+                },
+                {
+                   "@name": "innate speed",
+                   "@value": "30",
+                   "@bonus": "base"
+                }
+             ],
+             "grant": [
+                {
+                   "@type": "Size",
+                   "@id": "ID_SIZE_MEDIUM"
+                },
+                {
+                   "@type": "Racial Trait",
+                   "@id": "ID_XLN_RACIAL_TRAIT_FEYBLOOD_FEY_ANCESTRY"
+                },
+                {
+                   "@type": "Racial Trait",
+                   "@id": "ID_XLN_RACIAL_TRAIT_FEYBLOOD_FEY_CHARM"
+                },
+                {
+                   "@type": "Racial Trait",
+                   "@id": "ID_XLN_RACIAL_TRAIT_FEYBLOOD_FEY_RESISTANCE"
+                },
+                {
+                   "@type": "Language",
+                   "@id": "ID_LANGUAGE_COMMON"
+                },
+                {
+                   "@type": "Language",
+                   "@id": "ID_LANGUAGE_SYLVAN"
+                }
+             ],
+             "select": [
+                {
+                   "@type": "Language",
+                   "@name": "Language, Feyblood",
+                   "@supports": "Standard||Exotic"
+                },
+                {
+                   "@type": "Sub Race",
+                   "@name": "Sub Race, Feyblood",
+                   "@supports": "Feyblood"
+                }
+             ]
+          }
+       },
+       {
+          "@name": "Fey Ancestry",
+          "@type": "Racial Trait",
+          "@source": "Xanathar’s Lost Notes to Everything Else",
+          "@id": "ID_XLN_RACIAL_TRAIT_FEYBLOOD_FEY_ANCESTRY",
+          "description": {
+             "p": "You have advantage on saving throws against being charmed, and magic can’t put you to sleep."
+          },
+          "sheet": {
+             "description": "You have advantage on saving throws against being charmed, and magic can’t put you to sleep."
+          }
+       },
+       {
+          "@name": "Fey Charm",
+          "@type": "Racial Trait",
+          "@source": "Xanathar’s Lost Notes to Everything Else",
+          "@id": "ID_XLN_RACIAL_TRAIT_FEYBLOOD_FEY_CHARM",
+          "description": {
+             "p": "You can target one humanoid or beast that you can see within 30 feet. It must succeed on a Wisdom saving throw or be magically charmed. The charmed creature regards you as a trusted friend to be heeded and protected. Although the target isn’t under your control, it takes your requests or actions in the most favorable way it can."
+          },
+          "sheet": {
+             "description": "You can target one humanoid or beast that you can see within 30 feet. It must succeed on a Wisdom saving throw or be magically charmed. The charmed creature regards you as a trusted friend to be heeded and protected. Although the target isn’t under your control, it takes your requests or actions in the most favorable way it can."
+          }
+       },
+       {
+          "@name": "Fey Resistance",
+          "@type": "Racial Trait",
+          "@source": "Xanathar’s Lost Notes to Everything Else",
+          "@id": "ID_XLN_RACIAL_TRAIT_FEYBLOOD_FEY_RESISTANCE",
+          "description": {
+             "p": "You have advantage on saving throws against being charmed and against illusion magic."
+          },
+          "sheet": {
+             "description": "You have advantage on saving throws against being charmed and against illusion magic."
+          }
+       },
+       {
+          "@name": "Sylphi",
+          "@type": "Sub Race",
+          "@source": "Xanathar’s Lost Notes to Everything Else",
+          "@id": "ID_XLN_SUB_RACE_FEYBLOOD_SYLPHI",
+          "supports": "Feyblood",
+          "description": [
+             "As a skyborn feyblood, you inherited the powers of the faeries who dwell in the eternal skies. You take great pride in your heritage, and have a keen sense when it comes to dealing with others. You tend to be reclusive and aloof, often studying others from afar before opening yourself to them. You have a dislike of dark, confined spaces.",
+             {
+                "strong": {
+                   "em": "Ability Score Increase."
+                },
+                "#text": "Your Wisdom score increases by 1."
+             },
+             {
+                "strong": {
+                   "em": "Faerie Wings."
+                },
+                "#text": "At 3rd level, you can use your wings to glide at a rate of 60 feet per round as if under the effects of a feather fall spell. At 6th level, once per long rest, you can fly as if under the effect of the fly spell for up to 10 minutes."
+             }
+          ],
+          "sheet": {
+             "@alt": "Sylphi Feyblood",
+             "@display": "false"
+          },
+          "rules": {
+             "stat": {
+                "@name": "wisdom",
+                "@value": "1"
+             },
+             "grant": {
+                "@type": "Racial Trait",
+                "@id": "ID_XLN_RACIAL_TRAIT_SYLPHI_FAERIE_WINGS"
+             }
+          }
+       },
+       {
+          "@name": "Faerie Wings",
+          "@type": "Racial Trait",
+          "@source": "Xanathar’s Lost Notes to Everything Else",
+          "@id": "ID_XLN_RACIAL_TRAIT_SYLPHI_FAERIE_WINGS",
+          "description": {
+             "p": "At 3rd level, you can use your wings to glide at a rate of 60 feet per round as if under the effects of a feather fall spell. At 6th level, once per long rest, you can fly as if under the effect of the fly spell for up to 10 minutes."
+          },
+          "sheet": {
+             "description": "At 3rd level, you can use your wings to glide at a rate of 60 feet per round as if under the effects of a feather fall spell. At 6th level, once per long rest, you can fly as if under the effect of the fly spell for up to 10 minutes."
+          }
+       },
+       {
+          "@name": "Dryashi",
+          "@type": "Sub Race",
+          "@source": "Xanathar’s Lost Notes to Everything Else",
+          "@id": "ID_XLN_SUB_RACE_FEYBLOOD_DRYASHI",
+          "supports": "Feyblood",
+          "description": [
+             "You have a spiritual connection with the land and sea. With such a strong bond, you feel a sense of kinship with all living creatures. You tend to be friendly toward others, sometimes in excess. You are tough, energetic, and lively, often holding contempt for things akin to decay and corruption.",
+             {
+                "strong": {
+                   "em": "Ability Score Increase."
+                },
+                "#text": "Your Constitution score increases by 1."
+             },
+             {
+                "strong": {
+                   "em": "Earthen Upbringing."
+                },
+                "#text": "While perfectly still, you are invisible when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. At 6th level, when you are hidden in this way, you can use your action to cast invisibility with no material components, and you can’t use this feature again until you finish a long rest."
+             }
+          ],
+          "sheet": {
+             "@alt": "Dryashi Feyblood",
+             "@display": "false"
+          },
+          "rules": {
+             "stat": {
+                "@name": "constitution",
+                "@value": "1"
+             },
+             "grant": {
+                "@type": "Racial Trait",
+                "@id": "ID_XLN_RACIAL_TRAIT_DRYASHI_EARTHEN_UPBRINGING"
+             }
+          }
+       },
+       {
+          "@name": "Earthen Upbringing",
+          "@type": "Racial Trait",
+          "@source": "Xanathar’s Lost Notes to Everything Else",
+          "@id": "ID_XLN_RACIAL_TRAIT_DRYASHI_EARTHEN_UPBRINGING",
+          "description": {
+             "p": "While perfectly still, you are invisible when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. At 6th level, when you are hidden in this way, you can use your action to cast invisibility with no material components, and you can’t use this feature again until you finish a long rest."
+          },
+          "sheet": {
+             "description": "While perfectly still, you are invisible when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. At 6th level, when you are hidden in this way, you can use your action to cast invisibility with no material components, and you can’t use this feature again until you finish a long rest."
+          }
+       }
+    ]
+ }
