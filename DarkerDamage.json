@@ -262,8 +262,8 @@
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 4,
-			"dmg1": "1d10",
-			"dmg2": "2d6",
+			"dmg1": "1d5+5",
+			"dmg2": "1d6+6",
 			"dmgType": "S",
 			"property": [
 				"V"
