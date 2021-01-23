@@ -258,7 +258,7 @@
 	],
 	"item": [
 		{
-			"name": "Test Sword",
+			"name": "Masterwork 1-Hand-Weapon",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 4,
@@ -269,10 +269,100 @@
 				"V"
 			],
 			"rarity": "none",
-			"value": 35000,
+			"value": 500,
 			"source": "DD",
 			"entries": [
-				"This sword has been expertly smithed with a longer blade and a hand and a half grip. This weapon deals {@dice 1d5+5} damage when wielded one handed and {@dice 1d6+6} damage when wielded with two hands."
+				"This Masterwork weapon is a true piece of art. Deadly and reliable . This weapon deals {@dice 1d5+5} damage when wielded one handed and {@dice 1d6+6} damage when wielded with two hands."
+			]
+		},
+		{
+			"name": "Masterwork 2-Hand-Weapon",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 4,
+			"dmg1": "1d8+8",
+			"dmgType": "S",
+			"property": [
+				"V"
+			],
+			"rarity": "none",
+			"value": 500,
+			"source": "DD",
+			"entries": [
+				"This Masterwork weapon is a true piece of art. Deadly and reliable . This weapon deals {@dice 1d5+5} damage when wielded one handed and {@dice 1d6+6} damage when wielded with two hands."
+			]
+		},
+		{
+			"name": "Masterwork Reach-Weapon",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 4,
+			"dmg1": "1d6+6",
+			"dmgType": "S",
+			"property": [
+				"V"
+			],
+			"rarity": "none",
+			"value": 500,
+			"source": "DD",
+			"entries": [
+				"This Masterwork weapon is a true piece of art. Deadly and reliable . This weapon deals {@dice 1d5+5} damage when wielded one handed and {@dice 1d6+6} damage when wielded with two hands."
+			]
+		},
+		{
+			"name": "Masterwork Dagger",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 4,
+			"dmg1": "1d4+4",
+			"dmgType": "S",
+			"property": [
+				"V"
+			],
+			"rarity": "none",
+			"value": 500,
+			"source": "DD",
+			"entries": [
+				"This Masterwork weapon is a true piece of art. Deadly and reliable . This weapon deals {@dice 1d5+5} damage when wielded one handed and {@dice 1d6+6} damage when wielded with two hands."
+			]
+		},
+		{
+			"name": "Masterwork 1-Hand-Range",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weight": 4,
+			"dmg1": "1d5+5",
+			"dmgType": "S",
+			"property": [
+				"A",
+				"H"
+			],
+			"range": "30/60",
+			"rarity": "none",
+			"value": 500,
+			"source": "DD",
+			"entries": [
+				"This Masterwork weapon is a true piece of art. Deadly and reliable . This weapon deals {@dice 1d5+5} damage when wielded one handed and {@dice 1d6+6} damage when wielded with two hands."
+			]
+		},
+		{
+			"name": "Masterwork 2-Hand-Range",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weight": 4,
+			"dmg1": "1d8+8",
+			"dmgType": "S",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "100/400",
+			"rarity": "none",
+			"value": 500,
+			"source": "DD",
+			"entries": [
+				"This Masterwork weapon is a true piece of art. Deadly and reliable . This weapon deals {@dice 1d5+5} damage when wielded one handed and {@dice 1d6+6} damage when wielded with two hands."
 			]
 		},
 		{
@@ -299,14 +389,14 @@
 			"weight": 3,
 			"ac": 1,
 			"rarity": "none",
-			"value": 2000,
+			"value": 15,
 			"source": "DD",
 			"entries": [
 				"This small metal shield is held by a simple handle for ease of maneuvering. It increases your Armor Class by 1 (replacing the shield's normal bonus to AC) and you are proficient in its use if you are proficient with light armor. It also weighs half as much as a regular shield and can be donned or doffed without using an action."
 			]
 		},
 		{
-			"name": "Crossbow, Hand, Repeating",
+			"name": "Crossbow, Hand, Repeating", 
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 3,
@@ -663,7 +753,7 @@
 			"ac": "3",
 			"stealth": true,
 			"rarity": "uncommon",
-			"value": 25000,
+			"value": 25,
 			"source": "DD",
 			"entries": [
 				"This thick, unwieldy shield is large enough to cover you from ankle to shoulder. It increases your armor class by 3 (this replaces the shield's normal bonus to AC.) While this shield is equipped, you have disadvantage on Dexterity (Stealth) checks, and if your Strength score is lower than 15, your speed is reduced by 10 feet as if you were wearing heavy armor. It weighs twice as much as a regular shield."
