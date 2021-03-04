@@ -1,0 +1,180 @@
+body {
+    font-size: 19px;
+}
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+
+form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+h1 {
+    background: linear-gradient(to right, transparent, white);
+    padding: 30px;
+
+    font-family:verdana;
+}
+
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ECF0F1;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Add styles to the form container */
+.container {
+    position: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 16px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #7FB3D5;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
